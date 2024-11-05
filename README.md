@@ -18,7 +18,7 @@ And also a shoutout to [Chu-Tak Li](https://chutakcode.wixsite.com/website) for 
 
 - First of all, clone this repo
 
-      !git clone https://github.com/zuruoke/watermark-removal
+      !git clone https://github.com/Spring8848/watermark-removal
 
 - Change Directory to the repo
 
@@ -31,7 +31,7 @@ And also a shoutout to [Chu-Tak Li](https://chutakcode.wixsite.com/website) for 
 
 - Install tensorflow toolkit [neuralgym](https://github.com/bg1szd/neuralgym). (To support tensorflow v2, install from the forked repo)
 
-      !pip install git+https://github.com/bg1szd/neuralgym
+      !pip install git+https://github.com/Spring8848/neuralgym
 
 - Download the model dirs using this [link](https://drive.google.com/drive/folders/1xRV4EdjJuAfsX9pQme6XeoFznKXG0ptJ?usp=sharing) and put it under `model/` (rename `checkpoint.txt` to `checkpoint` because sometimes google drive automatically adds .txt after download)
 
