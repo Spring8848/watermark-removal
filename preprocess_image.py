@@ -39,7 +39,8 @@ def preprocess_image(image, watermark_type):
         print("Image size not supported!!!")
 
     if (preprocessed_mask_image.shape != (0,)):
-        assert image.shape == preprocessed_mask_image
+        # Use .shape for both arrays in the comparison
+        assert image.shape == preprocessed_mask_image.shape, "Shapes of image and preprocessed mask image do not match"
         grid = 8
         image = image[:image_h//grid*grid, :image_w//grid*grid, :]
         preprocessed_mask_image = preprocessed_mask_image[:image_h //
